@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: faae5eddff7eb3c4b8cba9b015e53984
+guid: dc6acfc52700ed34197ff7c030780a5c
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -123,7 +123,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: beta tile map_0
+      name: Tile_Set_0
       rect:
         serializedVersion: 2
         x: 0
@@ -137,14 +137,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a4ba3f10ecd204847bd47dbade09b9de
-      internalID: -1519101630
+      spriteID: 373ac7b12840414448e153fd5d3f131a
+      internalID: -702214012
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: beta tile map_1
+      name: Tile_Set_1
       rect:
         serializedVersion: 2
         x: 32
@@ -158,14 +158,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1dbd432b4bb5c4d4bbfc33715bce67f4
-      internalID: -1838676381
+      spriteID: 5e83024c2732da74ba169e7a0516896f
+      internalID: -1241788100
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: beta tile map_2
+      name: Tile_Set_2
       rect:
         serializedVersion: 2
         x: 64
@@ -179,14 +179,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1a8c27376c376424ea832b1a63decab8
-      internalID: 539722491
+      spriteID: ba5b5ee8ba7e2e742b0ac8e4f756dd3e
+      internalID: 1964871473
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: beta tile map_3
+      name: Tile_Set_3
       rect:
         serializedVersion: 2
         x: 96
@@ -200,14 +200,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 259654dd09ffbf0498125fc9daa3e36b
-      internalID: 520757650
+      spriteID: a993376f5804e1e4f9c0151f11a1b2a7
+      internalID: -325358859
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: beta tile map_4
+      name: Tile_Set_4
       rect:
         serializedVersion: 2
         x: 0
@@ -221,14 +221,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 694b290d7fa4bf448be657656d106c28
-      internalID: -1081381153
+      spriteID: 9e4d54f97a8e53347a28832fc29a50e9
+      internalID: -1394931547
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: beta tile map_5
+      name: Tile_Set_5
       rect:
         serializedVersion: 2
         x: 32
@@ -242,14 +242,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9875016a96cbdbf469765e3b63539c91
-      internalID: 721944964
+      spriteID: 8bc6c63b51378204988728d43186c49e
+      internalID: 2033836147
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: beta tile map_6
+      name: Tile_Set_6
       rect:
         serializedVersion: 2
         x: 64
@@ -263,8 +263,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d1a498646fbcc6546b78889424330583
-      internalID: 2073877939
+      spriteID: 61f8a5d5d32f11c4aa0dc3d9b4e65956
+      internalID: -1670708542
       vertices: []
       indices: 
       edges: []
@@ -280,13 +280,13 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      beta tile map_0: -1519101630
-      beta tile map_1: -1838676381
-      beta tile map_2: 539722491
-      beta tile map_3: 520757650
-      beta tile map_4: -1081381153
-      beta tile map_5: 721944964
-      beta tile map_6: 2073877939
+      Tile_Set_0: -702214012
+      Tile_Set_1: -1241788100
+      Tile_Set_2: 1964871473
+      Tile_Set_3: -325358859
+      Tile_Set_4: -1394931547
+      Tile_Set_5: 2033836147
+      Tile_Set_6: -1670708542
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
