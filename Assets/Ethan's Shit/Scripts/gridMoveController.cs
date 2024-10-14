@@ -51,7 +51,7 @@ public class gridMoveController : MonoBehaviour
             }
         }
     }
-    public void OnCollisionEnter2D(Collision2D collision)
+    /*public void OnCollisionEnter2D(Collision2D collision)
     {
         if (Input.GetKeyDown(interact))
         {
@@ -60,31 +60,31 @@ public class gridMoveController : MonoBehaviour
                 Console.WriteLine("WORKS");
             }
         }
-    }
-/* Try this:
-public void OnCollisionEnter2D(Collision2D collision)
-{
-    if (Input.GetKeyDown(interact))
+    }*/
+
+    public void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("NPC"))
-        {
-            // Handle NPC interaction here
-            // For example, you could open a dialogue window or start a battle
-            Debug.Log("Interacting with NPC: " + collision.gameObject.name);
-        }
-        else if (collision.gameObject.CompareTag("Item"))
-        {
-            // Handle item interaction here
-            // For example, you could add the item to the player's inventory or use it immediately
-            Debug.Log("Interacting with item: " + collision.gameObject.name);
-        }
-        else if (collision.gameObject.CompareTag("Encounter"))
-        {
-            // Handle encounter interaction here
-            // For example, you could start a random encounter with a wild Pokemon
-            Debug.Log("Encountering wild Pokemon: " + collision.gameObject.name);
-        }
+        //if (Input.GetKeyDown(interact))
+        //{
+            
+            if (collision.gameObject.CompareTag("NPC"))
+            {
+                // Handle NPC interaction here
+                // For example, you could open a dialogue window or start a battle
+                Debug.Log("Interacting with NPC: " + collision.gameObject.name);
+            }/*
+            else if (collision.gameObject.CompareTag("Item"))
+            {
+                // Handle item interaction here
+                // For example, you could add the item to the player's inventory or use it immediately
+                Debug.Log("Interacting with item: " + collision.gameObject.name);
+            }
+            else if (collision.gameObject.CompareTag("Encounter"))
+            {
+                // Handle encounter interaction here
+                // For example, you could start a random encounter with a wild Pokemon
+                //Debug.Log("Encountering wild Pokemon: " + collision.gameObject.name);
+            }*/
+        //}
     }
-}
-*/
 }
