@@ -5,11 +5,12 @@ using UnityEngine;
 
 public class npcTest : MonoBehaviour
 {
-    public void OnTriggerEnter2D(Collider2D collision)
+    public Collider2D circleCollider;
+    public void OnTriggerEnter2D(Collider2D other)
     {
-        if(collision.gameObject.CompareTag("Player"))//&& Input.GetKeyDown(KeyCode.E))
+        if(other.gameObject.CompareTag("Player"))//&& Input.GetKeyDown(KeyCode.E))
         {
-            Debug.Log("IT FUKIN WORKSS");
+            Debug.Log("IT WORKSS");
         }
     }
 }
