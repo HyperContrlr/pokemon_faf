@@ -20,3 +20,4 @@ private void OnTriggerExit2D(Collider2D other)
     }
 }
 }
+//I hate this file dude this sucks
