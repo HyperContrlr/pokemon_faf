@@ -62,7 +62,7 @@ public class gridMoveController : MonoBehaviour
         }
     }*/
 
-    public void OnTriggerEnter2D(Collider2D collision)
+    /*public void OnTriggerEnter2D(Collider2D collision)
     {
         //if (Input.GetKeyDown(interact))
         //{
@@ -84,7 +84,7 @@ public class gridMoveController : MonoBehaviour
                 // Handle encounter interaction here
                 // For example, you could start a random encounter with a wild Pokemon
                 //Debug.Log("Encountering wild Pokemon: " + collision.gameObject.name);
-            }*/
+            }
         //}
-    }
+    }*/
 }

@@ -5,19 +5,19 @@ using UnityEngine;
 
 public class npcTest : MonoBehaviour
 {
-    private void OnTriggerEnter2D(Collider2D other)
-{
-    if (other.gameObject.CompareTag("Player"))
+    private void OnCollisionEnter2D(Collision2D other)
     {
-        print("In");
+        if (other.gameObject.CompareTag("Player"))
+        {
+            print("In");
+        }
     }
-}
-private void OnTriggerExit2D(Collider2D other)
-{
-    if (other.gameObject.CompareTag("Player"))
+    private void OnCollisionExit2D(Collision2D other)
     {
-        print("Out");
+        if (other.gameObject.CompareTag("Player"))
+        {
+            print("Out");
+        }
     }
-}
 }
 //I hate this file dude this sucks
